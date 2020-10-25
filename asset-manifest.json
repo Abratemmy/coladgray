@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/coladgray/static/css/main.c4b0010b.chunk.css",
+    "main.js": "/coladgray/static/js/main.1091eda3.chunk.js",
+    "main.js.map": "/coladgray/static/js/main.1091eda3.chunk.js.map",
+    "runtime-main.js": "/coladgray/static/js/runtime-main.e2162def.js",
+    "runtime-main.js.map": "/coladgray/static/js/runtime-main.e2162def.js.map",
+    "static/css/2.2d63d0b4.chunk.css": "/coladgray/static/css/2.2d63d0b4.chunk.css",
+    "static/js/2.9482a3b0.chunk.js": "/coladgray/static/js/2.9482a3b0.chunk.js",
+    "static/js/2.9482a3b0.chunk.js.map": "/coladgray/static/js/2.9482a3b0.chunk.js.map",
+    "index.html": "/coladgray/index.html",
+    "precache-manifest.cb9c14e4e971bcfbc94a231111421f74.js": "/coladgray/precache-manifest.cb9c14e4e971bcfbc94a231111421f74.js",
+    "service-worker.js": "/coladgray/service-worker.js",
+    "static/css/2.2d63d0b4.chunk.css.map": "/coladgray/static/css/2.2d63d0b4.chunk.css.map",
+    "static/css/main.c4b0010b.chunk.css.map": "/coladgray/static/css/main.c4b0010b.chunk.css.map",
+    "static/js/2.9482a3b0.chunk.js.LICENSE.txt": "/coladgray/static/js/2.9482a3b0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2162def.js",
+    "static/css/2.2d63d0b4.chunk.css",
+    "static/js/2.9482a3b0.chunk.js",
+    "static/css/main.c4b0010b.chunk.css",
+    "static/js/main.1091eda3.chunk.js"
+  ]
+}
