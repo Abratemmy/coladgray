@@ -18,6 +18,7 @@ import Leavehistory from '../employee/leavehistory.js';
 const Router = ()=>(
     <Switch>
         {/* pages */}
+        <Route exact path='/coladgray' component={Employeelogin} />
         <Route exact path='/' component={Employeelogin} />
         <Route exact path='/admin_login' component={Adminlogin} />
         <Route exact path='/admin_dashboard' component={Admindashboard} />       
