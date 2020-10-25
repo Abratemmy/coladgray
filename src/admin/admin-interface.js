@@ -80,7 +80,7 @@ function Admininterface({children}){
                         </div>
                     </li> */}
                     <li> 
-                        <NavLink to='./admin_login'exact className="sidebar-navlink"><FaSignOutAlt className="sidebar-icons"/><span>Signout</span></NavLink>                
+                        <NavLink to='/admin_login'exact className="sidebar-navlink"><FaSignOutAlt className="sidebar-icons"/><span>Signout</span></NavLink>                
                     </li>
                 </ul>
                 

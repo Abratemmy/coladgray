@@ -29,7 +29,7 @@ export class Employeelogin extends Component {
                                             </div>
 
                                             <div className="text-right">
-                                                <NavLink to='./employee_profile' className="nav-button">Login</NavLink>
+                                                <NavLink to='/employee_profile' className="nav-button">Login</NavLink>
                                             </div>
                                         </div>
                                     </div>

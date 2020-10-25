@@ -22,13 +22,13 @@ function Landing({children}) {
             <div className="sidebar">
                 <ul style={{paddingTop:'50px'}}>
                     <li style={{marginBottom:'30px'}}>
-                    <NavLink to='./'exact className="sidebar-navlink"><BiLogInCircle className="sidebar-icons" /><span>Employee Login</span></NavLink>
+                    <NavLink to='/'exact className="sidebar-navlink"><BiLogInCircle className="sidebar-icons" /><span>Employee Login</span></NavLink>
                     </li>
                     {/* <li>
                     <NavLink to='./password_recovery' exact   className="sidebar-navlink"><FaFacebookF className="sidebar-icons"/><span>Emp Password Recovery</span></NavLink>
                     </li> */}
                     <li>
-                    <NavLink to='./admin_login'exact className="sidebar-navlink"><BiLogIn className="sidebar-icons"/><span>Admin Login</span></NavLink>                
+                    <NavLink to='/admin_login'exact className="sidebar-navlink"><BiLogIn className="sidebar-icons"/><span>Admin Login</span></NavLink>                
                     </li>
                 </ul>
                
