@@ -1,0 +1,54 @@
+{
+    "data":[
+        {
+            "id":"1",
+            "EmployeeName":"Temitope",
+            "Gender":"Male",
+            "EmpEmailid":"ab@gmail.com",
+            "LeaveType":"annual leave",
+            "postingDate":"2020-10-15",
+            "LeaveDateStart":"2020-22-10",
+            "LeaveDateEnd":"2021-10-2",
+            "LeaveDescription":"This is the appropriate time to take a leave sir",
+            "LeaveStatus": "Approved",
+            "AdminRemark":"Your leave is granted. You are free to go",
+            "AdminActionDate":"2020-12-1",
+            "Contact":"0905678543"
+           
+        },
+        {
+            "id":"2",
+            "EmployeeName":"Osunlana Tosin",
+            "Gender":"Male",
+            "EmpEmailid":"ab@gmail.com",
+            "LeaveType":"annual leave",
+            "postingDate":"2020-10-15",
+            "LeaveDateStart":"2020-22-10",
+            "LeaveDateEnd":"2021-10-2",
+            "LeaveDescription":"This is the appropriate time to take a leave sir",
+            "LeaveStatus": "Approved",
+            "AdminRemark":"Your leave is granted. You are free to go",
+            "AdminActionDate":"2020-12-1",
+            "Contact":"0905678543"
+           
+        },
+
+        {
+            "id":"3",
+            "EmployeeName":"Adeola Samson",
+            "Gender":"Male",
+            "EmpEmailid":"ab@gmail.com",
+            "LeaveType":"annual leave",
+            "postingDate":"2020-10-15",
+            "LeaveDateStart":"2020-22-10",
+            "LeaveDateEnd":"2021-10-2",
+            "LeaveDescription":"This is the appropriate time to take a leave sir",
+            "LeaveStatus": "Approved",
+            "AdminRemark":"Your leave is granted. You are free to go",
+            "AdminActionDate":"2020-12-1",
+            "Contact":"0905678543"
+           
+        }
+       
+    ]
+}
