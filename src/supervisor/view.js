@@ -1,7 +1,6 @@
 import React,{useState, useEffect} from 'react'
-import Admininterface from './admin-interface';
 import leave from '../blog/blog.json';
-import './admin.css';
+import Supervisorinterface from './supervisorinterface';
 
 const View=(props) => {
     const [post, setPost] = useState({
@@ -36,7 +35,8 @@ const View=(props) => {
     }
 
     return (
-        <Admininterface>
+        <Supervisorinterface >
+      
             <div className="content-start">
                 <div className="maincontentlogin">
                     <h5 className=""> Leave Details</h5>
@@ -133,7 +133,7 @@ const View=(props) => {
                                             <textarea name="description" id=""cols="10"  rows="1" placeholder="Description" className="textarea input" required=""></textarea>    
                                         </div>
                                             <div className="inputdiv text-right">
-                                                <a href={`/admin_dashboard/dashboard_view/${post.id}`} className="nav-button">Submit</a>
+                                                <a href={`/supervisordashboard/dashboard_view/${post.id}`} className="nav-button">Submit</a>
                                             </div>
                                     </form>
                                 </div>
@@ -144,7 +144,7 @@ const View=(props) => {
                     </div>
                 </div>
             </div>
-        </Admininterface>
+        </Supervisorinterface>
         
     )
 }

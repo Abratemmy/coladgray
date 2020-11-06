@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import {NavLink} from 'react-router-dom'
 import Landing from './landing';
 
-export class Adminlogin extends Component {
+export class Supervisorlogin extends Component {
     render() {
         return (
             <div>
                 <Landing>
                     <div className="maincontentlogin" > 
-                        <h2 className="text-center"> Employee Leave management system | Admin Login</h2>
+                        <h2 className="text-center"> Employee Leave management system | Supervisor Login</h2>
                         <div className="">
                             
                             <form>
@@ -16,7 +16,7 @@ export class Adminlogin extends Component {
                                     <div className="col-lg-3 col-md-2 col-sm-12"></div>
                                     <div className="col-lg-6 col-md-8 col-sm-12">
                                         <div className="content-input">
-                                            <h5 className="text-left">Admin Login</h5>
+                                            <h5 className="text-left">Supervisor Login</h5>
                                             <div className="inputdiv">
                                                 <input type="email" name="email" required="" className="input"/>
                                                 <label htmlFor="email" className="inputlabel">Email</label>
@@ -28,7 +28,7 @@ export class Adminlogin extends Component {
                                             </div>
 
                                             <div className="text-right">
-                                                <NavLink to='/admin_dashboard' className="nav-button">Login</NavLink>
+                                                <NavLink to='/supervisordashboard' className="nav-button">Login</NavLink>
                                             </div>
                                         </div>
                                     </div>
@@ -43,4 +43,4 @@ export class Adminlogin extends Component {
     }
 }
 
-export default Adminlogin
+export default Supervisorlogin

@@ -19,7 +19,7 @@ function Employeeinterface({children}) {
                     <FaBars className="headericon" id="sidebar_btn"/>
                 </label>
                 <div className="left_area">
-                    <h3>Colad<span>Gray</span></h3>
+                    <h3>Leave <span> Application</span></h3>
                 </div>
                 <div className="right_area">
                     <NavLink to='/' className="logout_btn">Logout</NavLink>

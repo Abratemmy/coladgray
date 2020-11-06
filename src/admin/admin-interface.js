@@ -7,6 +7,10 @@ import {NavLink} from 'react-router-dom';
 
 
 function Admininterface({children}){
+    const [subnavsuper, setSubnavsuper] = useState(false);
+    function showsubnavsuper(){
+        setSubnavsuper(!subnavsuper)
+    }
     const [subnav, setSubnav] = useState(false);
     function showsubnav(){
         setSubnav(!subnav)
@@ -35,7 +39,7 @@ function Admininterface({children}){
                     <FaBars className="headericon" id="sidebar_btn"/>
                 </label>
                 <div className="left_area">
-                    <h3>Colad<span>Gray</span></h3>
+                <h3>Leave <span> Application</span></h3>
                 </div>
                 <div className="right_area">
                     <NavLink to='/' className="logout_btn">Logout</NavLink>
@@ -46,6 +50,15 @@ function Admininterface({children}){
                 <ul  >
                     <li >
                         <NavLink to= '/admin_dashboard'exact className="sidebar-navlink"><MdDashboard className="sidebar-icons" /><span>Dashboard</span></NavLink>
+                    </li>
+                    <li onClick={showsubnavsuper}>  
+                        <NavLink to='#'exact className="sidebar-navlink sidebarsub"><FcDepartment className="sidebar-icons"/><span>Supervisor
+                            <FiChevronRight className="sub-menu-icon"/></span>
+                        </NavLink>
+                        <div className={subnavsuper ? "show-subnav":"no-showsubnav"} id="department" >
+                            <NavLink to='/add_supervisor'exact className="sub-menu-navlink">add Supervisor</NavLink>
+                            <NavLink to='/manage_supervisor'exact className="sub-menu-navlink">Manage Supervisor</NavLink>
+                        </div>
                     </li>
                     <li onClick={showsubnav}>  
                         <NavLink to='#'exact className="sidebar-navlink sidebarsub"><FcDepartment className="sidebar-icons"/><span>Department 

@@ -15,7 +15,7 @@ function ManageDepartment() {
                             <tr>
                                 <th scope="col">#</th>
                                 <th scope="col">Dept Name</th>
-                                <th scope="col">Dept short name</th>
+                                <th scope="col">Dept Supervisor</th>
                                 <th scope="col">Dept code</th>
                                 <th scope="col">Creation Date</th>
                                 <th scope="col">Action</th>
@@ -25,7 +25,7 @@ function ManageDepartment() {
                             <tr>
                                 <th scope="row">1</th>
                                 <td>Human Resources</td>
-                                <td>Hr</td>
+                                <td>Mrs Olalekan</td>
                                 <td>hr001</td>
                                 <td>20-12-2020</td>
                                 <td><AiFillDelete /></td>
@@ -33,7 +33,7 @@ function ManageDepartment() {
                             <tr>
                                 <th scope="row">2</th>
                                 <td>Information Technology</td>
-                                <td>IT</td>
+                                <td>MR Akanbi</td>
                                 <td>IT001</td>
                                 <td>20-12-2020</td>
                                 <td><AiFillDelete /></td>
@@ -41,7 +41,7 @@ function ManageDepartment() {
                             <tr>
                                 <th scope="row">3</th>
                                 <td>Sales</td>
-                                <td>sl</td>
+                                <td>Mr Owolabi</td>
                                 <td>sl001</td>
                                 <td>20-12-2020</td>
                                 <td><AiFillDelete /></td>

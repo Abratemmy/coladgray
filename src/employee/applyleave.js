@@ -14,7 +14,7 @@ export class Applyleave extends Component {
                             <div className="">
                                 <form>
                                     <div className="row">
-                                        <div className="col-lg-12 col-md-12 col-sm-12">
+                                        <div className="col-lg-6 col-md-6 col-sm-12">
                                             <div className="inputdiv">
                                                 {/* <input type="text" name="code" required="" className="input"/>
                                                 <label htmlFor="code" className="inputlabel">Employee Code</label> */}
@@ -24,6 +24,17 @@ export class Applyleave extends Component {
                                                     <option value="3">medical leave</option>
                                                     <option value="4">maternity leave</option>
                                                     <option value="4">others</option>
+                                                </select>
+                                            </div>
+                                        </div>
+   
+                                        <div className="col-lg-6 col-md-6 col-sm-12">
+                                            <div className="inputdiv">
+                                                <select >
+                                                    <option value="1">supervisor Name</option>
+                                                    <option value="2">Aderibigbe</option>
+                                                    <option value="3">Alabi</option>
+                                                    <option value="4">Aduke</option>
                                                 </select>
                                             </div>
                                         </div>

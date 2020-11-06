@@ -7,11 +7,25 @@ function Employeeprofile() {
         <div>
             <Employeeinterface>
             <div className="employee-header">
-                <h4 className=""> Update employee</h4>
+                <h4 className=""> Employee Info</h4>
                 <div className="employee-profile">
-                    <h2>Update Employee Info</h2>
+                    <h2> Employee Info</h2>
 
-                    <form>
+                    
+                    <div className="viewdetails-col">
+                        <div className="leavedetails-title">Employee Name: <span>Temitope Opeyemi</span></div>
+                    </div>
+                    <div className="viewdetails-col">
+                        <div className="leavedetails-title">Employee Department: <span>Information Technology</span></div>
+                    </div>
+                    <div className="viewdetails-col">
+                        <div className="leavedetails-title">Employee Supervisor: <span>Abraham</span></div>
+                    </div>
+                    <div className="viewdetails-col">
+                        <div className="leavedetails-title">Employee Id: <span>11111</span></div>
+                    </div>
+
+                    {/* <form>
                         <div className="row">
                             <div className="col-lg-6 col-md-12 col-sm-12">
                                 <div className="inputdiv">
@@ -84,7 +98,7 @@ function Employeeprofile() {
                             </div>
                         </div>
                         
-                    </form>
+                    </form> */}
                 </div>
             </div>
             </Employeeinterface>

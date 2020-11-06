@@ -23,12 +23,12 @@ export class Addemployee extends Component {
                                     <label htmlFor="text" className="inputlabel">Gender</label>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-3 col-sm-6">
+                            {/* <div className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="inputdiv">
                                     <input type="text" name="text" required="" className="input"/>
                                     <label htmlFor="text" className="inputlabel">Birthday</label>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="inputdiv">
                                     <input type="text" name="firstname" required="" className="input"/>
@@ -50,7 +50,13 @@ export class Addemployee extends Component {
                             <div className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="inputdiv">
                                     <input type="text" name="address" required="" className="input"/>
-                                    <label htmlFor="address" className="inputlabel">Address</label>
+                                    <label htmlFor="address" className="inputlabel">Supervisor name</label>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-6">
+                                <div className="inputdiv">
+                                    <input type="text" name="address" required="" className="input"/>
+                                    <label htmlFor="address" className="inputlabel">Supervisor email</label>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12">
@@ -59,12 +65,12 @@ export class Addemployee extends Component {
                                     <label htmlFor="email" className="inputlabel">Email</label>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-3 col-sm-6">
+                            {/* <div className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="inputdiv">
                                     <input type="text" name="country" required="" className="input"/>
                                     <label htmlFor="country" className="inputlabel">Country</label>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="inputdiv">
                                     <input type="text" name="city" required="" className="input"/>
@@ -81,7 +87,7 @@ export class Addemployee extends Component {
                             <div className="col-lg-6 col-md-6 col-sm-12">
                                 <div className="inputdiv">
                                     <input type="password" name="cpassword" required="" className="input"/>
-                                    <label htmlFor="cpassword" className="inputlabel">No of leave per day</label>
+                                    <label htmlFor="cpassword" className="inputlabel">Eligible leave days</label>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12">

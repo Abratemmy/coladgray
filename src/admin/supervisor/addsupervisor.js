@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Admininterface from '../admin-interface';
 import {NavLink} from 'react-router-dom'
 
-export class AddDepartment extends Component {
+export class AddSupervisor extends Component {
     render() {
         return (
             <Admininterface>
@@ -13,22 +13,19 @@ export class AddDepartment extends Component {
                             <div className="col-lg-3 col-md-2 col-sm-12"></div>
                             <div className="col-lg-6 col-md-8 col-sm-12">                                
                                 <div className="admin-center">
-                                    <h5 className=""> Add Department</h5>
+                                    <h5 className=""> Add Supervisor</h5>
                                     <div className="admin-add">
                                         <div className="inputdiv">
-                                            <input type="email" name="email" required="" className="input"/>
-                                            <label htmlFor="email" className="inputlabel">Department Name</label>
+                                            <input type="text" name="name" required="" className="input"/>
+                                            <label htmlFor="name" className="inputlabel">Supervisor Name</label>
                                         </div>
                                         <div className="inputdiv">
-                                            <input type="email" name="email" required="" className="input"/>
-                                            <label htmlFor="email" className="inputlabel">Department Code</label>
+                                            <input type="text" name="email" required="" className="input"/>
+                                            <label htmlFor="email" className="inputlabel">Supervisor Department</label>
                                         </div>
-                                        <div className="inputdiv">
-                                            <input type="email" name="email" required="" className="input"/>
-                                            <label htmlFor="email" className="inputlabel">Department Supervisor</label>
-                                        </div>
+                                       
                                         <div className="">
-                                            <NavLink to='/add_department' className="nav-button">Add</NavLink>
+                                            <NavLink to='/add_supervisor' className="nav-button">Add</NavLink>
                                         </div>
                                     </div>
                                 </div>
@@ -44,4 +41,4 @@ export class AddDepartment extends Component {
     }
 }
 
-export default AddDepartment
+export default AddSupervisor
